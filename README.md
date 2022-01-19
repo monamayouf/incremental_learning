@@ -2,10 +2,10 @@
 This repository is a first version about the source code used to implement the algoriths of the rotocols presented in the article "Formalizing Data Preparation in
 Curriculum Incremental Deep Learning on BreakHis DataSet" submitted to "Neurocomputiong journal".
 This code is working on BreakHis dataset images and aims at automatically classify these images into benign and malignant tumors for the binary classification and into eight  tumors subclasses for the multiclass classification.
-##BreakHis dataset
+## BreakHis dataset
 The Breast Cancer Histopathological Image Classification (BreakHis) is  composed of 9,109 microscopic images of breast tumor tissue collected from 82 patients using different magnifying factors (40X, 100X, 200X, and 400X).  To date, it contains 2,480  benign and 5,429 malignant samples (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format). This database has been built in collaboration with the P&D Laboratory  – Pathological Anatomy and Cytopathology, Parana, Brazil (http://www.prevencaoediagnose.com.br). We believe that researchers will find this database a useful tool since it makes future benchmarking and evaluation possible.
 
-###Characteristics
+### Characteristics
 The dataset BreaKHis is divided into two main groups: benign tumors and malignant tumors. Histologically benign is a term referring to a lesion that does not match any criteria of malignancy – e.g., marked cellular atypia, mitosis, disruption of basement membranes, metastasize, etc. Normally, benign tumors are relatively “innocents”, presents slow growing and remains localized. Malignant tumor is a synonym for cancer: lesion can invade and destroy adjacent structures (locally invasive) and spread to distant sites (metastasize) to cause death.
 
 In current version, samples present in dataset were collected by SOB method, also named partial mastectomy or excisional biopsy. This type of procedure, compared to any methods of needle biopsy, removes the larger size of tissue sample and is done in a hospital with general anesthetic.
@@ -33,7 +33,8 @@ Each image filename stores information about the image itself: method of procedu
 <SEC>::=<SEC>::<LETTER>|<LETTER>
 <DIGIT>::=0|1|…|9
 <LETTER>::=A|B|…|Z
-###How to obtain access to the images
+  
+## How to obtain access to the images
 The BreakHis Database may be used for non-commercial research provided you acknowledge the source of the image by citing the following paper in publications about your research:
 
 [1] Spanhol, F., Oliveira, L. S., Petitjean, C., Heutte, L., A Dataset for Breast Cancer Histopathological Image Classification, IEEE Transactions on Biomedical Engineering (TBME), 63(7):1455-1462, 2016. [pdf]
