@@ -39,13 +39,16 @@ The BreakHis Database may be used for non-commercial research provided you ackno
 
 [1] Spanhol, F., Oliveira, L. S., Petitjean, C., Heutte, L., A Dataset for Breast Cancer Histopathological Image Classification, IEEE Transactions on Biomedical Engineering (TBME), 63(7):1455-1462, 2016. [pdf]
 In order to receive the link to download the database we ask you to register using this link: https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
- #Requirements
+ # Requirements
   Python >3.5
   PyImage/numpy/ panda and matplotlib libraries
   Keras library
   
-  #Explanaition of the code:
-  This code
+  # Explanaition of the code:
+  This code translates the different protocols presented in the article. There is a first step of data loading, data preparation, data balancing and data augmenatation. Once the data are ready to be fed to our model, we explore the different feeding protocols.
+  The file binary classification contains all the protocols concerning the binary classification and the file multi-class classification contains the protocols for the multi-class classification.
+#How to run ?
+  
 
   #How to run
   
